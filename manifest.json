@@ -1,0 +1,12 @@
+{
+	"manifest_version": 3,
+	"name": "AmbitionBox Unblur",
+	"description": "Removes the Blur Across AmbitionBox's Website",
+	"version": "1.0",
+	"content_scripts": [
+		{
+			"js": ["scripts/salary.js"],
+			"matches": ["https://www.ambitionbox.com/salaries*"]
+		}
+	]
+}
